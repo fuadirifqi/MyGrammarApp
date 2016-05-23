@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyGrammarApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="grammar_title_hint">Enter title for the Grammar</string>
+    <string name="grammar_title_label">Title</string>
+    <string name="grammar_details_label">Details</string>
+    <string name="grammar_valid_label">Valid?</string>
+    <string name="date_picker_title">Date of input:</string>
+    <string name="new_grammar">New Grammar</string>
+    <string name="delete_grammar">Delete Grammar</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$s grammars</string>
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1$s crime</item>
+        <item quantity="other">%1$s crimes</item>
+    </plurals>
+    <string name="grammar_suspect_error">Choose Suspect</string>
+    <string name="grammar_report_text">Send Error Report</string>
+
+    <string name="grammar_report">%1$s!
+        The Grammar was discovered on %2$s. %3$s, and %4$s
+    </string>
+    <string name="grammar_report_solved">The case is solved</string>
+    <string name="grammar_report_unsolved">The case is not solved</string>
+    <string name="grammar_report_no_suspect">There is no suspect</string>
+    <string name="grammar_report_suspect">The suspect is %s</string>
+    <string name="grammar_report_subject">MyGrammarApp Grammar Report</string>
+    <string name="send_report">Send grammar report via</string>
+
+    <string name="image_thumbnail_title">Image</string>
+
+</resources>

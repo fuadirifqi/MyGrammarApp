@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_grammar_valid_checkbox"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_grammar_title_textview"
+        android:layout_toLeftOf="@id/list_item_grammar_valid_checkbox"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:layout_alignParentLeft="true"
+        tools:text="Grammar Title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_grammar_date_textview"
+        android:layout_toLeftOf="@id/list_item_grammar_valid_checkbox"
+        android:layout_below="@id/list_item_grammar_title_textview"
+        android:padding="4dp"
+        android:layout_alignParentLeft="true"
+        tools:text="Grammar Date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_grammar_suspect_textview"
+        android:layout_alignParentLeft="true"
+        android:padding="4dp"
+        android:layout_below="@id/list_item_grammar_date_textview"
+        tools:text="Grammar Suspect"
+    />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_divider_line_margin"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tasklist_menu_dividerline_grey" />
+
+</RelativeLayout>
